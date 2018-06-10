@@ -992,6 +992,15 @@ window.Vue = __webpack_require__(35);
 
 Vue.use(__WEBPACK_IMPORTED_MODULE_0_buefy___default.a);
 
+var app = new Vue({
+  el: '#app',
+  data: {}
+});
+$(document).ready(function () {
+  $('button.dropdown').hover(function (e) {
+    $(this).toggleClass('is-open');
+  });
+});
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application

@@ -1,0 +1,20 @@
+.side-menu {
+  position: fixed;
+  height: 100vh;
+  min-width: 200px;
+  background-color: gray;
+  overflow-y: scroll;
+  
+
+}
+.management-area{
+	position: relative;
+	top: 4rem;
+	left:200px;
+	right:0;
+
+}
+
+.flex-container {
+	margin: 10px 25px;
+}
